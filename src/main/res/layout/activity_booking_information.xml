@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car"
+    tools:context=".BookingInformation">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="51dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="From"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="133dp"
+        android:background="@android:color/holo_green_light"
+        android:text="To"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="153dp"
+        android:layout_height="53dp"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="216dp"
+        android:background="@android:color/holo_purple"
+        android:text="TotalCost"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="155dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text=" Date"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="62dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="89dp"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_marginEnd="19dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="137dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:background="@android:color/holo_blue_bright" />
+</RelativeLayout>

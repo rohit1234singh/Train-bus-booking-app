@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    tools:context=".Signin">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/holo_blue_bright"
+        android:drawableEnd="@color/colorPrimary"
+        android:ems="10"
+        android:hint="enter your email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginStart="79dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignTop="@+id/imageView2"
+        android:background="@android:color/holo_blue_dark"
+        android:ems="10"
+        android:hint="enter your password"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
